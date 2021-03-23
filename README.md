@@ -1,10 +1,36 @@
-# Getting Started with Create React App
+# Drug Cost Tracker
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This is a React application meant to be used by medical practioner to track the real-time cost of different drugs with different brands.
+
+### Drug Cost Track List
+
+![Drug Cost Track List](./screenshots/drugList.png)
+
+This page shows a list of drug costs with different brands & allows medical practioner to update the drug cost info or delete certain drug.
+
+### Edit Drug Cost Info
+
+![Edit Drug Cost Info](./screenshots/editDrug.png)
+
+This page allows medical practioner to update the drug cost info, including brand name, drug name, symptoms that the drug solves, and price. 
+
+### Add New Drug Cost Info
+
+![Add New Drug Cost Info](./screenshots/addDrug.png)
+
+This page allows medical practioner to add new drug cost info, including brand name, drug name, symptoms that the drug solves, and price. 
+
+### Add New Drug Brand Info
+
+![Add New Drug Brand Info](./screenshots/addBrand.png)
+
+This page allows medical practioner to add new drug brand info.
+
+---
 
 ### `npm start`
 
