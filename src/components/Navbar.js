@@ -5,8 +5,8 @@ class Navbar extends Component {
     render() {
         return (
             <nav className="navbar navbar-dark bg-primary navbar-expand-lg">
-                <Link to="/" className="navbar-brand">Drug Cost Tracker</Link>
-                <div className="collpase navbar-collapse">
+                <Link to="/chart" className="navbar-brand">Drug Cost Tracker</Link>
+                <div className="collapse navbar-collapse">
                     <ul className="navbar-nav mr-auto">
                         <li className="navbar-item">
                             <Link to="/" className="nav-link">Drug List</Link>

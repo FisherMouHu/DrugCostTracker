@@ -6,6 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a React application meant to be used by medical practioner to track the real-time cost of different drugs with different brands.
 
+### Drug Cost Visualization Chart
+
+![Drug Cost Visualization Chart](./screenshots/drugChart.png)
+
+This page shows the visualization chart of the drug costs and it is the main page of the application.
+
+
 ### Drug Cost Track List
 
 ![Drug Cost Track List](./screenshots/drugList.png)

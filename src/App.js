@@ -8,6 +8,7 @@ import DrugList from "./components/DrugList"
 import EditDrug from "./components/EditDrug"
 import AddDrug from "./components/AddDrug"
 import AddBrand from "./components/AddBrand"
+import DrugChart from './components/DrugChart'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <div className="container">
         <Navbar />
         <br/>
+        <Route path="/chart" component={ DrugChart } />
         <Route path="/" exact component={ DrugList } />
         <Route path="/edit/:id" component={ EditDrug } />
         <Route path="/add" component={ AddDrug } />
